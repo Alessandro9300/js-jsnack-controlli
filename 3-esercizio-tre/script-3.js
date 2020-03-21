@@ -2,7 +2,7 @@
 
 
 // chiedo 5 volte all'utente di inserire un numero creando delle variabili prompt
-
+var alert = alert("Questo tool è una mini calcolatrice, inserire cinque numeri per avere la somma di essi")
 var numUno = parseInt(prompt("Inserisco un numero"));
 var numDue = parseInt(prompt("Inserisco un numero"));
 var numTre = parseInt(prompt("Inserisco un numero"));
@@ -19,4 +19,9 @@ console.log(somma);
 
 // dò output della somma
 
-document.getElementById('output').innerHTML = somma;
+document.getElementById('output-num1').innerHTML = numUno;
+document.getElementById('output-num2').innerHTML = numDue;
+document.getElementById('output-num3').innerHTML = numTre;
+document.getElementById('output-num4').innerHTML = numQuattro;
+document.getElementById('output-num5').innerHTML = numCinque;
+document.getElementById('output-somma').innerHTML = somma;
